@@ -1,6 +1,5 @@
 title: Welcome to Boshishuoshuo
 description: This is the new home
 show_downloads: false
-#theme: jekyll-theme-architect
-theme: minima
+theme: jekyll-theme-architect
 
