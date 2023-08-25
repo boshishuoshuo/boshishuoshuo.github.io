@@ -1,6 +1,4 @@
 ---
-title: Welcome to my blog
+layout: home
 ---
-
-### EST 2023 Aug 10th
 
