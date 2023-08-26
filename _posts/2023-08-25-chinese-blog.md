@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_chinese
 title: "chinese log"
 date: 2023-08-25
 ---
