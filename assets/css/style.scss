@@ -7,7 +7,7 @@ header.post-header {
     background: #fafafa;
 }
 
-.chinese-blog {
+#main-content h3.chinese-blog {
     margin-top: 24px;
     margin-bottom: 8px;
     font-family: 'ZCOOL KuaiLe', 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif;
@@ -17,7 +17,7 @@ header.post-header {
     text-indent: 3px;
   }
   
-.chinese-blog before {
+#main-content h3.chinese-blog before {
     padding-right: 0.3em;
     margin-left: -2em;
     content: "///";
