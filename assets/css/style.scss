@@ -23,6 +23,13 @@ header h2 {
   text-indent: 0px;
 }
 
+#main-content h2.post-title:before {
+  padding-right: 0em;
+  margin-left: -1.5em;
+  content: "//";
+  color: #9ddcff;
+}
+
 #main-content h3.chinese-blog {
     margin-top: 24px;
     margin-bottom: 8px;
