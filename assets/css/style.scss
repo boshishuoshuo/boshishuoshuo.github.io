@@ -7,13 +7,13 @@ header {
   border-bottom: none;
 }
 
-header.post-header {
+#main-content header.post-header {
   padding-top: 5px;
   padding-bottom: 10px;
   background: #fafafa;
 }
 
-header h1.post-title:before {
+#main-content header h1.post-title:before {
   content: none;
 }
 
@@ -34,10 +34,9 @@ header h2 {
 }
 
 #main-content h2.post-title:before {
-  padding-right: 0em;
-  margin-left: -1.5em;
+  padding-right: none;
+  margin-left: none;
   content: none;
-  color: #9ddcff;
 }
 
 #main-content ul.post-list {
