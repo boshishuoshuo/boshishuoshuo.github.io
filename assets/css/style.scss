@@ -3,8 +3,18 @@
 
 @import "{{ site.theme }}";
 
+header {
+  border-bottom: none;
+}
+
 header.post-header {
-    background: #fafafa;
+  padding-top: 5px;
+  padding-bottom: 10px;
+  background: #fafafa;
+}
+
+header h1.post-title:before {
+  content: none;
 }
 
 header h1 {
@@ -26,7 +36,7 @@ header h2 {
 #main-content h2.post-title:before {
   padding-right: 0em;
   margin-left: -1.5em;
-  content: "//";
+  content: none;
   color: #9ddcff;
 }
 
@@ -34,7 +44,7 @@ header h2 {
   list-style: none;
 }
 
-#main-content h3.chinese-blog {
+#main-content .chinese-blog {
     margin-top: 24px;
     margin-bottom: 8px;
     font-family: 'ZCOOL KuaiLe', 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif;
@@ -42,11 +52,4 @@ header h2 {
     font-weight: bold;
     color: #474747;
     text-indent: 3px;
-  }
-  
-#main-content h3.chinese-blog before {
-    padding-right: 0.3em;
-    margin-left: -2em;
-    content: "///";
-    color: #9ddcff;
   }
