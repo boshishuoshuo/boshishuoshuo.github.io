@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Xi replied to workers from Liming aero engine assembly"
+title: "Xi didn't do anything"
 date: 2023-09-04
 category: tracexi
 ---
