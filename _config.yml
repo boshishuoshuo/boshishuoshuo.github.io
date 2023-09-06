@@ -5,3 +5,7 @@ show_downloads: false
 theme: jekyll-theme-architect
 date_format: "%b %-d, %Y"
 
+#build setup
+plugins:
+  - jekyll-paginate
+
