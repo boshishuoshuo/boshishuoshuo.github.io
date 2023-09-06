@@ -10,6 +10,44 @@ layout: base
   
     {{ content }}
   
+    <div class="nav__menu" id="nav-menu">
+      <ul class="nav__list">
+          <li class="nav__item">
+              <a href="#home" class="nav__link active-link">
+                  <i class='bx bx-home-alt nav__icon'></i>
+                  <span class="nav__name">Home</span>
+              </a>
+          </li>
+          
+          <li class="nav__item">
+              <a href="#about" class="nav__link">
+                  <i class='bx bx-user nav__icon'></i>
+                  <span class="nav__name">About</span>
+              </a>
+          </li>
+
+          <li class="nav__item">
+              <a href="#skills" class="nav__link">
+                  <i class='bx bx-book-alt nav__icon'></i>
+                  <span class="nav__name">Skills</span>
+              </a>
+          </li>
+
+          <li class="nav__item">
+              <a href="#portfolio" class="nav__link">
+                  <i class='bx bx-briefcase-alt nav__icon'></i>
+                  <span class="nav__name">Portfolio</span>
+              </a>
+          </li>
+
+          <li class="nav__item">
+              <a href="#contactme" class="nav__link">
+                  <i class='bx bx-message-square-detail nav__icon'></i>
+                  <span class="nav__name">Contactme</span>
+              </a>
+          </li>
+      </ul>
+    </div>
   
     {% if site.paginate %}
       {% assign posts = paginator.posts %}
@@ -38,24 +76,6 @@ layout: base
         </li>
         {%- endfor -%}
       </ul>
-  
-      {% if site.paginate %}
-        <div class="pager">
-          <ul class="pagination">
-          {%- if paginator.previous_page %}
-            <li><a href="{{ paginator.previous_page_path | relative_url }}" class="previous-page">{{ paginator.previous_page }}</a></li>
-          {%- else %}
-            <li><div class="pager-edge">•</div></li>
-          {%- endif %}
-            <li><div class="current-page">{{ paginator.page }}</div></li>
-          {%- if paginator.next_page %}
-            <li><a href="{{ paginator.next_page_path | relative_url }}" class="next-page">{{ paginator.next_page }}</a></li>
-          {%- else %}
-            <li><div class="pager-edge">•</div></li>
-          {%- endif %}
-          </ul>
-        </div>
-      {%- endif %}
   
     {%- endif -%}
   
