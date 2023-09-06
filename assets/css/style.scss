@@ -3,8 +3,23 @@
 
 @import "{{ site.theme }}";
 
-header.post-header {
-    background: #fafafa;
+header {
+  border-bottom: none;
+}
+
+#main-content header.post-header {
+  padding-top: 5px;
+  padding-bottom: 10px;
+  background: #fafafa;
+  text-indent: 0px;
+}
+
+#main-content header h1.post-title {
+  text-indent: 0px;
+}
+
+#main-content header h1.post-title:before {
+  content: none;
 }
 
 header h1 {
@@ -16,25 +31,28 @@ header h2 {
   font-family: 'ZCOOL KuaiLe', 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif;
 }
 
-#main-content h2.post-title {
+ul.post-list {
+  padding-left: 0px;
+}
+
+#main-content h3.post-title {
   margin-top: 24px;
   margin-bottom: 0px;
-  font-size: 2em;
+  font-size: 22px;
   text-indent: 0px;
 }
 
-#main-content h2.post-title:before {
-  padding-right: 0em;
-  margin-left: -1.5em;
-  content: "//";
-  color: #9ddcff;
+#main-content h3.post-title:before {
+  padding-right: none;
+  margin-left: none;
+  content: none;
 }
 
 #main-content ul.post-list {
   list-style: none;
 }
 
-#main-content h3.chinese-blog {
+#main-content .chinese-blog {
     margin-top: 24px;
     margin-bottom: 8px;
     font-family: 'ZCOOL KuaiLe', 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif;
@@ -42,11 +60,4 @@ header h2 {
     font-weight: bold;
     color: #474747;
     text-indent: 3px;
-  }
-  
-#main-content h3.chinese-blog before {
-    padding-right: 0.3em;
-    margin-left: -2em;
-    content: "///";
-    color: #9ddcff;
   }
