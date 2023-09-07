@@ -64,20 +64,9 @@ ul.post-list {
   }
 
 .nav {
-  height: var(--header-height);
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
-
-.nav__img {
-  width: 32px;
-  border-radius: 50%;
-}
-
-.nav__logo {
-  color: var(--title-color);
-  font-weight: 600;
 }
 
 @media screen and (max-width: 767px) {
@@ -112,15 +101,12 @@ ul.post-list {
 
 .nav__list {
   justify-content: space-around;
+  list-style: none;
 }
 
 .nav__name {
-  font-size: var(--tiny-font-size);
+  font-size: 1em;
   /* display: none;*/ /* Minimalist design, hidden labels */
-}
-
-.nav__icon {
-  font-size: 1.5rem;
 }
 
 /*Active link*/
