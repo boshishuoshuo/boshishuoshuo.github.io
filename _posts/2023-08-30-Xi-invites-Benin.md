@@ -2,7 +2,7 @@
 layout: post
 title: "Xi invites Benin"
 date: 2023-08-30
-category: whereisxi
+category: tracexi
 ---
 
 ### Xi invites Benin president

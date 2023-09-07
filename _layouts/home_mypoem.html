@@ -33,7 +33,7 @@ layout: base
 
     </nav>
   
-    {% assign posts = site.posts %}
+    {% assign posts = site.posts | where: "category", "mypoem" %}
   
     {%- if posts.size > 0 -%}
       {%- if page.list_title -%}
