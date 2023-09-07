@@ -57,12 +57,6 @@ ul.post-list {
 }
 
   /*=============== NAV ===============*/
-.container {
-    max-width: 968px;
-    margin-left: 1rem;
-    margin-right: 1rem;
-}
-
 .nav {
   display: flex;
   justify-content: space-between;
@@ -91,6 +85,10 @@ ul.post-list {
 
 }
 
+.nav__list {
+  padding-left: 0px;
+}
+
 .nav__list, 
 .nav__link {
   display: flex;
@@ -100,8 +98,7 @@ ul.post-list {
   flex-direction: column;
   align-items: center;
   row-gap: 4px;
-  color: var(--title-color);
-  font-weight: 600;
+  font-weight: 200;
 }
 
 .nav__list {
@@ -111,10 +108,4 @@ ul.post-list {
 
 .nav__name {
   font-size: 30px;
-}
-
-/*Active link*/
-.active-link {
-  position: relative;
-  transition: .3s;
 }
