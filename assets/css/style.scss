@@ -105,13 +105,12 @@ ul.post-list {
 }
 
 .nav__name {
-  font-size: 1em;
-  /* display: none;*/ /* Minimalist design, hidden labels */
+  font-size: 30px;
 }
 
 /*Active link*/
 .active-link {
   position: relative;
-  color: var(--first-color);
+  color: #9ddcff;
   transition: .3s;
 }
