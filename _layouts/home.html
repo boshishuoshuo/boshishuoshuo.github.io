@@ -41,7 +41,7 @@ layout: base
       {%- endif -%}
       <ul class="post-list">
         {%- assign date_format = site.date_format | default: "%b %-d, %Y" -%}
-        {%- for post in posts -%}
+        {%- for post in posts limit: site.maxposts -%}
         <li>
           <h3 class="post-title">
             <a class="post-link" href="{{ post.url | relative_url }}">

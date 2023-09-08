@@ -4,5 +4,6 @@ description: 不灵不要钱
 show_downloads: false
 theme: jekyll-theme-architect
 date_format: "%b %-d, %Y"
+maxposts: 10
 
 
