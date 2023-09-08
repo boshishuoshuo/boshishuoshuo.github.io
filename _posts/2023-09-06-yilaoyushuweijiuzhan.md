@@ -6,4 +6,4 @@ category: oldpoem
 ---
 
 ### 已老愈疏唯酒盏 莫把无涯恨有涯
-{: .chinese-blog}
+{: .chinese-blog }
