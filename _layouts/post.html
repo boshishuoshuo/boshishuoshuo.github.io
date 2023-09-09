@@ -9,9 +9,9 @@ layout: base
       <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
         {{ page.date | date: date_format }}
       </time>
-      {%- if page.location -%}
+      {% if page.location %}
         <span class="p-location">{{ page.location }}</span>
-      {%- endif -%}</p>
+      {% endif %}</p>
       {%- if page.modified_date -%}
         ~ 
         {%- assign mdate = page.modified_date | date_to_xmlschema -%}
