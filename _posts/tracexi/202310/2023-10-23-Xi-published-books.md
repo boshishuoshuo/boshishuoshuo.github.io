@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Xi published a book of his discourses on community-level governance"
-date: 2023-10-22
+date: 2023-10-23
 category: tracexi
 ---
 
