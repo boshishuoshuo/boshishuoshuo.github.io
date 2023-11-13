@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Xi visited Hebei area affected by the flood in the summer"
-date: 2023-11-12
+date: 2023-11-11
 category: tracexi
 ---
 
