@@ -21,8 +21,9 @@ layout: base
     </p>
   </header> -->
   <h1 class="post-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
+  {% assign diplomatic_activities = site.data.diplomatic_activities | sort_by: 'date' | reverse %}
   <table>
-    {% for row in site.data.diplomatic_activities %}
+    {% for row in diplomatic_activities %}
       {% if forloop.first %}
         <tr>
           {% for pair in row %}
