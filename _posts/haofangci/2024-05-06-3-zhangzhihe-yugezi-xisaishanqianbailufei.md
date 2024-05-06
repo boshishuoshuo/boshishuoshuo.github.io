@@ -9,3 +9,4 @@ category: haofangcishangdu
 ---
 
 西塞山前白鹭飞，桃花流水鳜鱼肥。青箬笠，绿蓑衣。斜风细雨不须归。
+{: .chinese-blog }
