@@ -16,14 +16,14 @@ layout: base
       <ul class="post-list">
           {%- for post in posts -%}
           <li>
+            <span class="post-meta"> No. {{ post.paihao }}</span>
             <h3 class="post-title">
               <a class="post-link" href="{{ post.url | relative_url }}">
                 {{ post.cipaiming | escape }}
               </a>
             </h3>
-            <span class="post-meta"> {{ post.diyiju }}</span>
             <span class="post-meta"> {{ post.zuozhe }}</span>
-            <span class="post-meta"> No. {{ post.paihao }}</span>
+            <span class="post-meta"> {{ post.diyiju }}</span>
           </li>
           {%- endfor -%}
       </ul>
