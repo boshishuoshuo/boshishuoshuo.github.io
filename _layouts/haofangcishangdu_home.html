@@ -21,9 +21,9 @@ layout: base
               {{ post.title | escape }}
             </a>
           </h3>
-          <span class="post-meta"> No. {{ post.diyiju }}</span>
-          <span class="post-meta"> No. {{ post.zuozhe }}</span>
-          <span class="post-meta"> No. {{ post.paihao }}</span>
+          <p class="post-meta"> {{ post.diyiju }}</p>
+          <p class="post-meta"> {{ post.zuozhe }}</p>
+          <p class="post-meta"> No. {{ post.paihao }}</p>
         </li>
         {%- endfor -%}
       </ul>

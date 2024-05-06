@@ -21,17 +21,19 @@ layout: home_base
       <ul class="post-list">
         {%- assign date_format = site.date_format | default: "%b %-d, %Y" -%}
         {%- for post in posts limit: site.maxposts -%}
-        <li>
-          <h3 class="post-title">
-            <a class="post-link" href="{{ post.url | relative_url }}">
-              {{ post.title | escape }}
-            </a>
-          </h3>
-          <span class="post-meta">{{ post.date | date: date_format }}</span>
-          {%- if site.show_excerpts -%}
-            {{ post.excerpt }}
-          {%- endif -%}
-        </li>
+        {% unless post.category contains 'haofangcishangdu' %}
+          <li>
+            <h3 class="post-title">
+              <a class="post-link" href="{{ post.url | relative_url }}">
+                {{ post.title | escape }}
+              </a>
+            </h3>
+            <span class="post-meta">{{ post.date | date: date_format }}</span>
+            {%- if site.show_excerpts -%}
+              {{ post.excerpt }}
+            {%- endif -%}
+          </li>
+        {% endunless %}
         {%- endfor -%}
       </ul>
   

@@ -2,14 +2,10 @@
 layout: base
 ---
 
-  <header class="post-header">
-    <h1 class="post-title p-name" itemprop="name headline">{{ page.cipaiming | escape }}</h1>
-    <h4 class="post-title p-name" itemprop="name headline">{{ page.zuozhe | escape }}</h4>
-    <h4 class="post-title p-name" itemprop="name headline">{{ page.timu | escape }}</h4>
-  </header>
+<h1 class="post-title p-name" itemprop="name headline">{{ page.cipaiming | escape }}</h1>
+<h4 class="post-title p-name" itemprop="name headline">{{ page.zuozhe | escape }}</h4>
+<h4 class="post-title p-name" itemprop="name headline">{{ page.timu | escape }}</h4>
 
-  <div class="post-content e-content" itemprop="articleBody">
-    {{ content }}
-  </div>
-
-</article>
+<div class="post-content e-content" itemprop="articleBody">
+  {{ content }}
+</div>
