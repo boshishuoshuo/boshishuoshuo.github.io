@@ -10,21 +10,24 @@ layout: base
   
     {{ content }}
   
-    {% assign posts = site.posts | reversed | where: "category", "haofangcishangdu"  %}
+    {% assign posts = site.posts | where: "category", "haofangcishangdu" %}
+    {% assign total_posts = site.posts | where: "category", "haofangcishangdu" | size %}
   
-    {%- if posts.size > 0 -%}
+    {%- if total_posts > 0 -%}
       <ul class="post-list">
-        {%- for post in posts -%}
-        <li>
-          <h3 class="post-title">
-            <a class="post-link" href="{{ post.url | relative_url }}">
-              {{ post.cipaiming | escape }}
-            </a>
-          </h3>
-          <span class="post-meta"> {{ post.diyiju }}</span>
-          <span class="post-meta"> {{ post.zuozhe }}</span>
-          <span class="post-meta"> No. {{ post.paihao }}</span>
-        </li>
+        {% for i in (total_posts - 1)..0 %}
+          {%- assign post = posts[i] -%}
+          <li>
+            <h3 class="post-title">
+              <a class="post-link" href="{{ post.url | relative_url }}">
+                {{ post.cipaiming | escape }}
+              </a>
+            </h3>
+            <span class="post-meta"> {{ post.diyiju }}</span>
+            <span class="post-meta"> {{ post.zuozhe }}</span>
+            <span class="post-meta"> No. {{ post.paihao }}</span>
+          </li>
+          {%- endfor -%}
         {%- endfor -%}
       </ul>
   
