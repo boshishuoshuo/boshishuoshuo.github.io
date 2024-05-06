@@ -10,13 +10,11 @@ layout: base
   
     {{ content }}
   
-    {% assign posts = site.posts | where: "category", "haofangcishangdu" %}
-    {% assign total_posts = site.posts | where: "category", "haofangcishangdu" | size %}
+    {% assign posts = site.posts | where: "category", "haofangcishangdu" | reverse %}
   
-    {%- if total_posts > 0 -%}
+    {%- if posts.size > 0 -%}
       <ul class="post-list">
-        {% for i in (total_posts - 1)..0 %}
-          {%- assign post = posts[i] -%}
+          {%- for post in posts -%}
           <li>
             <h3 class="post-title">
               <a class="post-link" href="{{ post.url | relative_url }}">
@@ -28,7 +26,6 @@ layout: base
             <span class="post-meta"> No. {{ post.paihao }}</span>
           </li>
           {%- endfor -%}
-        {%- endfor -%}
       </ul>
   
     {%- endif -%}
