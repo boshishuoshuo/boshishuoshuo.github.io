@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Xi arrived in France"
-date: 2024-05-06
+date: 2024-05-07
 category: tracexi
 ---
 
