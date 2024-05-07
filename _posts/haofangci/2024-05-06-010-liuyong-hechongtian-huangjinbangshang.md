@@ -6,6 +6,7 @@ timu: ""
 paihao: 10
 diyiju: "黄金榜上"
 category: haofangcishangdu
+date: 2024-05-06
 ---
 
 黄金榜上，偶失龙头望。明代暂遗贤，如何向？未遂风云便，争不恣游狂荡。何须论得丧，才子词人，自是白衣卿相。

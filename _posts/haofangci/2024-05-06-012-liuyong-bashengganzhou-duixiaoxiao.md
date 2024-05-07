@@ -6,6 +6,7 @@ timu: ""
 paihao: 12
 diyiju: "对潇潇"
 category: haofangcishangdu
+date: 2024-05-06
 ---
 
 对潇潇，暮雨洒江天，一番洗清秋。渐霜风凄紧，关河冷落，残照当楼。是处红衰翠减，苒苒物华休。惟有长江水，无语东流。

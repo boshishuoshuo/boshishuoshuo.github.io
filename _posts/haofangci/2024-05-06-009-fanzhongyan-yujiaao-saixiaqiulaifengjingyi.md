@@ -6,6 +6,7 @@ timu: "秋思"
 paihao: 9
 diyiju: "塞下秋来风景异"
 category: haofangcishangdu
+date: 2024-05-06
 ---
 
 塞下秋来风景异，衡阳雁去无留意。四面边声连角起，千嶂里，长烟落日孤城闭。

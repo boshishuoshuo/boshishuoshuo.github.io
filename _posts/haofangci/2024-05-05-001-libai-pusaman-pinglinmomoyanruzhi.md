@@ -6,6 +6,7 @@ timu: ""
 paihao: 1
 diyiju: "平林漠漠烟如织"
 category: haofangcishangdu
+date: 2024-05-05
 ---
 
 平林漠漠烟如织，寒山一带伤心碧。暝色入高楼，有人楼上愁。

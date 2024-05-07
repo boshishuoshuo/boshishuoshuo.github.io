@@ -6,6 +6,7 @@ timu: ""
 paihao: 8
 diyiju: "长忆观潮"
 category: haofangcishangdu
+date: 2024-05-06
 ---
 
 长忆观潮，满郭人争江上望。来疑沧海尽成空，万面鼓声中。
