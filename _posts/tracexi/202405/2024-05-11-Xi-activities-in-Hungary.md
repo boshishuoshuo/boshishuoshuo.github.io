@@ -10,6 +10,3 @@ On 5/9 (Hungary time), Xi Jinping attended the welcoming ceremony and later met 
 Xi Jinping and Hungary Prime Minister Viktor Orban jointly met the press later.
 
 China and Hungary decided to elevate bilateral relations to an all-weather comprehensive strategic partnership for the new era.
-
-In the evening, Xi attended the welcome banquet by Vucic.
-
