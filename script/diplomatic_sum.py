@@ -48,7 +48,11 @@ verb_dict = {'letter': 'replied',
              'visit abroad': 'visited'}
 
 with open(f'../video_materials/content_{year}_{month}.txt', 'w') as cf:
-    cf.write(f'Your diplomatic activities in {calendar.month_name[month]} of {year} includes ')
+    cf.write(f'In {calendar.month_name[month]} of {year}, Xi Jinping had {df_filtered.shape[0]} diplomatic activities.\n')
+    cf.write(f'\nThese diplomatic activities involved {df_filtered["country"].nunique()} countries and organizations: \n')
+    cf.write(f'{(", ").join(df_filtered["country"].unique().tolist()) }\n')
+
+    cf.write(f'\nXi Jinping\'s diplomatic activities in {calendar.month_name[month]} of {year} includes ')
     for k, v in format_dict.items():
         cf.write(f'{v} {get_action_word(k, v)} ')
     cf.write('.\n')
