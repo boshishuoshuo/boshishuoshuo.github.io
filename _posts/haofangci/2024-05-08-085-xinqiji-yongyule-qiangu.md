@@ -1,8 +1,8 @@
 ---
 layout: post_haofangcishangdu
 cipaiming: "永遇乐"
-zuozhe: "京口北固亭怀古"
-timu: "金山观月"
+zuozhe: "辛弃疾"
+timu: "京口北固亭怀古"
 paihao: 85
 diyiju: "千古江山"
 category: haofangcishangdu

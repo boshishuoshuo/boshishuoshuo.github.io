@@ -4,7 +4,7 @@ cipaiming: "金缕曲"
 zuozhe: "纳兰性德"
 timu: "赠梁汾"
 paihao: 136
-diyiju: "徳也狂生耳"
+diyiju: "德也狂生耳"
 category: haofangcishangdu
 date: 2024-05-10
 ---
