@@ -1,6 +1,6 @@
 ---
 layout: post_chinese
-title: "ren si qiu hong lai you xin"
+title: "人似秋鸿来有信"
 date: 2023-11-23
 category: oldpoem
 ---

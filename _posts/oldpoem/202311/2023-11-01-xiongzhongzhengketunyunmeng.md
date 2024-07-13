@@ -1,6 +1,6 @@
 ---
 layout: post_chinese
-title: "xiong zhong zheng ke tun yun meng"
+title: "胸中正可吞云梦"
 date: 2023-11-01
 category: oldpoem
 ---

@@ -1,6 +1,6 @@
 ---
 layout: post_chinese
-title: "ruo jiao zhuan pan yi hui shou"
+title: "若教转盼一回首"
 date: 2023-10-17
 category: oldpoem
 ---

@@ -1,6 +1,6 @@
 ---
 layout: post_chinese
-title: "lao lai bu zuo fan hua meng"
+title: "老来不作繁华梦"
 date: 2023-09-15
 category: oldpoem
 ---

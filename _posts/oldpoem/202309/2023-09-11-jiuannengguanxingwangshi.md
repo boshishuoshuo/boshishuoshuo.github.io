@@ -1,6 +1,6 @@
 ---
 layout: post_chinese
-title: "Jiu An Neng Guan Xing Wang Shi"
+title: "酒安能管兴亡事"
 date: 2023-09-11
 category: oldpoem
 ---

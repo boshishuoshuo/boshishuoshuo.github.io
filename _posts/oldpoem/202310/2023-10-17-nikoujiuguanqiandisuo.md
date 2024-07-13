@@ -1,6 +1,6 @@
 ---
 layout: post_chinese
-title: "ni kou niu guan qian di suo"
+title: "拟叩九关笺帝所"
 date: 2023-10-17
 category: oldpoem
 ---

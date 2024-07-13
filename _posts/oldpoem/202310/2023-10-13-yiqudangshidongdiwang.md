@@ -1,6 +1,6 @@
 ---
 layout: post_chinese
-title: "yi qu dong shi dong di wang"
+title: "缕衣檀板无颜色"
 date: 2023-10-13
 category: oldpoem
 ---

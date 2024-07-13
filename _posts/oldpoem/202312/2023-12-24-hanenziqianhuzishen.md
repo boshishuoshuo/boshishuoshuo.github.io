@@ -1,6 +1,6 @@
 ---
 layout: post_chinese
-title: "han en zi qian hu zi shen"
+title: "汉恩自浅胡自深"
 date: 2023-12-24
 category: oldpoem
 ---

@@ -1,6 +1,6 @@
 ---
 layout: post_chinese
-title: "er jin zong you kan hua yi"
+title: "而今纵有看花意"
 date: 2023-09-15
 category: oldpoem
 ---

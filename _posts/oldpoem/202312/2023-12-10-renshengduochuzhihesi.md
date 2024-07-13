@@ -1,6 +1,6 @@
 ---
 layout: post_chinese
-title: "ren sheng dao chu zhi he si"
+title: "人生到处知何似"
 date: 2023-12-10
 category: oldpoem
 ---

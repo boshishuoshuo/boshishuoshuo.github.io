@@ -1,6 +1,6 @@
 ---
 layout: post_chinese
-title: "mei jiu ru dao jie duan chou"
+title: "梁园歌舞足风流"
 date: 2023-10-13
 category: oldpoem
 ---
