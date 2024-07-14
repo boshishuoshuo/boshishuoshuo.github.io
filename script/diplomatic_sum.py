@@ -43,7 +43,7 @@ format_dict = df_filtered['format'].value_counts().to_dict()
 verb_dict = {'letter': 'replied',
              'message': 'sent',
              'phone': 'made',
-             'video chat': 'made',
+             'video': 'made',
              'visit in Beijing': 'met',
              'visit abroad': 'visited'}
 
