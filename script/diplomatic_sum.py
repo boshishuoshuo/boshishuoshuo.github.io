@@ -12,10 +12,12 @@ def get_action_word(word, number, sentence = False):
             word = word.replace('visit', 'guest')
         elif 'abroad' in word:
             word = 'foreign activity'
+        elif 'Embassy' in word:
+            word = 'Embassy trip'
     if number == 1:
         return word
     if 'visit' in word or 'guest' in word or 'foreign activity' in word:
-        return word.replace('visit', 'visits').replace('guest', 'guests').replace('foreign activity', 'foreign activities')
+        return word.replace('visit', 'visits').replace('guest', 'guests').replace('foreign activity', 'foreign activities').replace('Embassy trip', 'Embassy trip')
     else:
         return word + 's'
 
@@ -45,7 +47,8 @@ verb_dict = {'letter': 'replied',
              'phone': 'made',
              'video': 'made',
              'visit in Beijing': 'met',
-             'visit abroad': 'made'}
+             'visit abroad': 'made',
+             'visit in Embassy': 'made'}
 
 with open(f'../video_materials/content_{year}_{month}.txt', 'w') as cf:
     cf.write(f'In {calendar.month_name[month]} of {year}, Xi Jinping had {df_filtered.shape[0]} diplomatic activities.\n')
