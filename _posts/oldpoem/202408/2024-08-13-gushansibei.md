@@ -1,6 +1,6 @@
 ---
 layout: post_chinese
-title: "孤山寺北贾岛西"
+title: "孤山寺北贾亭西"
 date: 2024-08-13
 category: oldpoem
 ---
