@@ -50,6 +50,23 @@
         </aside>
       </div>
     </div>
-
+    <script>
+      // Show or hide the "Back to Top" button
+      window.onscroll = function() {
+        var topButton = document.getElementById("back-to-top");
+        if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
+          topButton.style.display = "block";
+        } else {
+          topButton.style.display = "none";
+        }
+      };
+    
+      // Smooth scrolling when the button is clicked
+      document.getElementById("back-to-top").onclick = function(e) {
+        e.preventDefault();
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+      };
+    </script>
+    
   </body>
 </html>
