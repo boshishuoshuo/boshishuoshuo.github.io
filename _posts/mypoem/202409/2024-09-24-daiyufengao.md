@@ -1,6 +1,6 @@
 ---
 layout: post_chinese
-title: "力微休负重"
+title: "黛玉葬花"
 date: 2024-09-24
 category: mypoem
 ---
