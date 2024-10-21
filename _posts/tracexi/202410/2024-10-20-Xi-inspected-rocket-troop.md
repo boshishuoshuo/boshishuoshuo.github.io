@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Xi inspected a missile troop"
-date: 2024-10-19
+date: 2024-10-20
 category: tracexi
 ---
 
