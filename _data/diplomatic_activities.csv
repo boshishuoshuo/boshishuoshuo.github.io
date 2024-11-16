@@ -3,6 +3,11 @@ date,format,country,counterparty,message
 11/6/2019,visit in Beijing,France,President Macron,official visit
 11/10/2019,visit abroad,Greece,President Pavlopoulos,state visit
 11/11/2019,visit abroad,Greece,President Pavlopoulos,meeting
+11/12/2019,visit abroad,Greece,ex-Prime Minister Tsipras,meeting
+11/12/2019,visit abroad,Brazil,BRICS,the 11th BRICS Summit
+11/13/2019,visit abroad,Brazil,President Bolsonaro,meeting
+11/13/2019,visit abroad,Russia,President Putin,meeting at the 11th BRICS
+11/14/2019,visit abroad,Brazil,BRICS,the 11th BRICS Summit
 12/31/2023,phone,Russia,President Putin,New Year Wish
 1/1/2024,phone,North Korea,Kim Jong Un,New Year Wish and 2024 China-North Korea friendship Year
 1/1/2024,letter,USA,President Biden,45th anniversary diplomatic ties
@@ -222,3 +227,5 @@ date,format,country,counterparty,message
 11/8/2024,visit in Beijing,Italy,President Mattarella,state visit
 11/9/2024,visit in Beijing,Indonesia,President Subianto,state visit
 11/11/2024,message,Brazil,Global South Media and Think Tank Forum,congratulations
+11/13/2024,visit abroad,Peru,APEC,the 31st APEC and state visit for Peru
+11/14/2024,visit abroad,Peru,President Boluarte,state visit
