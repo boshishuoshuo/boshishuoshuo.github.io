@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Xi published article on Qiushi"
-date: 2024-11-30
+date: 2024-12-02
 category: tracexi
 ---
 
