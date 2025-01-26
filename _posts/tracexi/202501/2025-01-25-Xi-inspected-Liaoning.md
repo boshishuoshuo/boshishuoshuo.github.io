@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Xi inspected Liaoning province"
-date: 2025-01-22
+date: 2025-01-25
 category: tracexi
 ---
 
