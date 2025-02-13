@@ -1,6 +1,6 @@
 ---
 layout: post_chinese
-title: "知章骑马似乘船"
+title: "日暮惊沙乱雪飞"
 date: 2025-02-13
 category: oldpoem
 ---
