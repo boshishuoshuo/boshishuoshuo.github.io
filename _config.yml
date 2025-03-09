@@ -6,6 +6,8 @@ theme: jekyll-theme-architect
 date_format: "%b %-d, %Y"
 maxposts: 10
 
+google_analytics: G-7QVSVVZMK5
+
 plugins:
   - jekyll-feed
 
