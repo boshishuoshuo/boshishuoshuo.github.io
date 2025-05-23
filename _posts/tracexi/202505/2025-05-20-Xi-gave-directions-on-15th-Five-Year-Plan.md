@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Xi gave directions on the 15th Five Year Plan"
-date: 2025-05-18
+date: 2025-05-20
 category: tracexi
 ---
 
