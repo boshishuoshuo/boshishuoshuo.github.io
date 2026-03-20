@@ -1,6 +1,6 @@
 ---
 layout: post_haofangcishangdu
-cipaiming: "桂枝香·"
+cipaiming: "桂枝香"
 zuozhe: "王安石"
 timu: "金陵怀古"
 paihao: 19
